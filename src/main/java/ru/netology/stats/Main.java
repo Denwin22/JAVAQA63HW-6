@@ -7,9 +7,9 @@ public class Main {
 
             System.out.println("Общая сумма " + service.calculateTotalSales(sales));
             System.out.println("Средний показатель " + service.calculateAverageSales(sales));
-            System.out.println(service.findMaxSalesMonth(sales));
-            System.out.println(service.findMinSalesMonth(sales));
-            System.out.println(service.calculateBelowAverageSales(sales));
-            System.out.println(service.calculateAboveAverageSales(sales));
+            System.out.println("Максимальная продажа " + service.findMaxSalesMonth(sales));
+            System.out.println("Минимальная продажа " + service.findMinSalesMonth(sales));
+            System.out.println("Сумма ниже среднего " + service.calculateBelowAverageSales(sales));
+            System.out.println("Сумма выше среднего " + service.calculateAboveAverageSales(sales));
         }
     }
